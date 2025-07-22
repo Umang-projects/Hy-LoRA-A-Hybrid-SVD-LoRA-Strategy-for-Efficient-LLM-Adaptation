@@ -108,7 +108,7 @@ The final model's performance is highly sensitive to the initial SVD compression
 > ### 🖼️ Compression vs. Performance Trade-off Frontier
 
 <p align="center">
-  <img src="perf_metrics.png" alt="HyLoRA Tradeoff" width="700"/>
+  <img src="perf_metrics vs Param_cost.png" alt="HyLoRA Tradeoff" width="700"/>
 </p>
 
 ---
