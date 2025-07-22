@@ -1,10 +1,7 @@
-# 🚀 Hy-LoRA: A Hybrid SVD-LoRA Strategy for Efficient LLM Adaptation
-
----
-
-````markdown
 # 🚀 HyLoRA: Hybrid Low-Rank Adaptation for Efficient Model Compression and Fine-Tuning
 
+
+---
 HyLoRA is a novel technique for compressing large language models using a hybrid of SVD (for static compression) and LoRA (for dynamic fine-tuning). This project demonstrates a complete pipeline to compress and fine-tune a LLaMA-based model (1.3B) using PyTorch with minimal performance loss.
 
 ---
