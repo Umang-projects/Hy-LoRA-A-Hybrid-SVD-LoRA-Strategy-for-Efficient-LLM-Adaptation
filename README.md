@@ -116,13 +116,6 @@ The final model's performance is highly sensitive to the initial SVD compression
 ### 📁 `svd_lora_layer.py`
 
 Defines `SVD_LoRA_Linear`, the hybrid layer replacing standard `nn.Linear`.
-
-### 🧠 `svd_rank_optimizer.py`
-
-Automatically finds the best SVD rank using a binary search guided by the compression threshold:
-
-```python
-# Constraint: rank < (d_in * d_out) / (d_in + d_out)
 ```
 
 ### 🧪 `finetune.py`
@@ -137,11 +130,11 @@ Reports perplexity (PPL) and model size.
 
 ## 📉 Results Summary
 
-HyLoRA achieves:
+HyLoRA achieves a powerful balance between size and performance:
 
-* 💾 **2.5× compression**
-* 🎯 **Only +51% perplexity** compared to +165% for SVD-only
-* 🔧 **<1% trainable parameters** via LoRA
+*   💾 **Over 2x compression**, reducing the final model from 1.1B to 539M parameters (**51% parameter reduction**).
+*   🎯 **Recovers from a catastrophic ~1700% perplexity increase** (from the SVD base) down to a final degradation of only **+53%** versus the original model.
+*   🔧 **Achieves this recovery by fine-tuning only 19.82M parameters** (just 1.8% of the original model's size).
 
 ---
 
