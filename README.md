@@ -116,7 +116,6 @@ The final model's performance is highly sensitive to the initial SVD compression
 ### 📁 `svd_lora_layer.py`
 
 Defines `SVD_LoRA_Linear`, the hybrid layer replacing standard `nn.Linear`.
-```
 
 ### 🧪 `finetune.py`
 
