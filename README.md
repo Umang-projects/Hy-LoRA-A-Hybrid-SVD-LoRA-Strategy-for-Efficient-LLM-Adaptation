@@ -19,17 +19,7 @@ Achieve significant compression while retaining downstream performance (perplexi
 **The Initial Goal**: Build an intelligent AutoRank optimizer that automatically determines the best SVD rank for compression.
 
 **The Investigation**: Discovered that naive SVD compression often results in a *larger* model due to the extra parameters introduced by the SVD layers. This led to models being bigger than the original if ranks weren’t constrained.
-
-**The Solution**: Introduced a mathematically derived compression boundary:
-
-```python
-rank = k < (d_in * d_out) / (d_in + d_out)
 ````
-
-This ensures the number of parameters in the low-rank SVD layer, `k * (d_in + d_out)`, is always less than the full-rank matrix `d_in * d_out`.
-
-Implemented this constraint in the AutoRank optimizer to enforce compression guarantees.
-
 ---
 
 ### Phase 2: Perplexity Collapse 💥
