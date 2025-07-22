@@ -153,11 +153,6 @@ HyLoRA achieves:
 * LoRA can recover performance at extremely low cost.
 * The hybrid architecture provides a principled, extensible way to combine compression and adaptation.
 
-```
-
----
-```
-
 
 ## 🔮 Future Directions
 
