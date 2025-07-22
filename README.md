@@ -86,8 +86,6 @@ Applied to **TinyLlama-1.1B-Chat-v1.0**, our method demonstrates a remarkable si
 | **2. SVD Compressed (α=0.7)**         | 529.07         | 1009.11     | **339.93**       |
 | **3. HyLoRA (SVD α=0.7 + LoRA r=32)** | **538.98**     | **1028.05** | **28.63**        |
 
-This table is your proof. It shows the catastrophic failure of naive compression and the heroic recovery by your LoRA adapters.
-
 ---
 
 ## 📊 Performance Analysis
