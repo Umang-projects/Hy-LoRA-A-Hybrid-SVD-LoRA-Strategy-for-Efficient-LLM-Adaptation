@@ -156,18 +156,6 @@ HyLoRA achieves:
 ```
 
 ---
-
-### ✅ What to do next:
-- Place your `perf_metrics.png` in the root of your GitHub repo.
-- Save this content as your `README.md`.
-
-Let me know if you want to add:
-- Model cards
-- Colab demo
-- PyPI packaging
-- Paper-style LaTeX abstract
-
-Or if you want a **GitHub Pages landing page** with an interactive plot!
 ```
 
 
