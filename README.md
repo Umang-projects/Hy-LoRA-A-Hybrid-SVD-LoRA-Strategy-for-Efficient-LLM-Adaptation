@@ -164,6 +164,12 @@ Reports perplexity (PPL) and model size.
 * **LoRA** authors for foundational adapter research 🧩
 * **SVD** pioneers for mathematical foundations of compression ➗
 
+## 🔬 Related Work & Concurrent Discovery
+
+After independently developing and benchmarking HyLoRA, I was excited to discover that other researchers have been exploring similar hybrid compression strategies. Notably, the work by a Researcher also investigates the combination of SVD and adapter-based fine-tuning.
+
+This convergence of ideas from different researchers independently validates that this is a powerful and relevant approach to solving the model efficiency problem. It highlights a shared direction in the field and underscores the potential of hybrid methods for the future of LLM deployment.
+
 ---
 
 ```bash
